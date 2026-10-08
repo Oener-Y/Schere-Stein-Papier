@@ -8,23 +8,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Goku vs. Vegeta</h1>
+    <div class="spielfeld-container">
+        <h1>Goku vs. Vegeta</h1>
 
-    <h2>Punktestand:</h2>
-    <h2 id="punkte">0 : 0</h2>
-    <p id="ergebnis">Wähle aus</p>
+        <div id="kampfbereich">
+            <div class="kämpfer">
+                <h3>Goku</h3>
+                <img src="assets/bilder/goku.png" alt="Goku" id="gokuBild">
+            </div>
 
-    <div>
-        <button id="schereBtn">
-            <img src="assets/bilder/schere.png" alt="Schere">
-        </button>
-        <button id="steinBtn">
-            <img src="assets/bilder/stein.png" alt="Stein">
-        </button>
-        <button id="papierBtn">
-            <img src="assets/bilder/papier.png" alt="Papier">
-        </button>                
+            <div class="mitte">
+                <h2>Punktestand</h2>
+                <h2 id="punkte">0 : 0</h2>
+            </div>
+
+            <div class="kämpfer">
+                <h3>Vegeta</h3>
+                <img src="assets/bilder/vegeta.png" alt="Vegeta" id="vegetaBild">
+            </div>
+        </div>
+
+        <p id="ergebnis">Wähle aus</p>
+
+        <div class="button-container">
+            <button id="schereBtn">
+                <img src="assets/bilder/schere.png" alt="Schere">
+            </button>
+            <button id="steinBtn">
+                <img src="assets/bilder/stein.png" alt="Stein">
+            </button>
+            <button id="papierBtn">
+                <img src="assets/bilder/papier.png" alt="Papier">
+            </button>
+        </div>                
     </div>
 </body>
 </html>
- 

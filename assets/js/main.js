@@ -8,6 +8,12 @@ const schereButton = document.getElementById("schereBtn")
 const steinButton = document.getElementById("steinBtn")
 const papierButton = document.getElementById("papierBtn")
 
+function animierePunktestand(){
+    punkteAnzeige.classList.remove("punkte-pop")
+    void punkteAnzeige.offsetWidth
+    punkteAnzeige.classList.add("punkte-pop")
+}
+
 function kiWählt() {
     let zufall = Math.floor(Math.random() * 3)
 
